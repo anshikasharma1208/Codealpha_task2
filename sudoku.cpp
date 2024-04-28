@@ -70,7 +70,7 @@ bool sudokusolver(vector<vector<int>>& grid) {
 }
 // User input for Sudoku puzzle
 void takeInput(vector<vector<int>>& grid) {
-    cout << "Enter the Sudoku puzzle (use 0 to represent empty cells and put space in between):\n";
+    cout << "Enter the Sudoku puzzle (use 0 to represent empty cells and put space in between :)\n";
     for (int i = 0; i < N; i++) {
         cout << "Row " << i + 1 << ": ";
         string line;
